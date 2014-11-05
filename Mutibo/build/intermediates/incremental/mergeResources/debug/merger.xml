@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="2" >
+
+    <dataSet config="main" >
+        <source path="/home/squeezymo/workspace/Mutibo-Android/Mutibo/src/main/res" >
+            <file
+                path="/home/squeezymo/workspace/Mutibo-Android/Mutibo/src/main/res/values-sw720dp-land/dimens.xml"
+                qualifiers="sw720dp-land-v13" >
+                <dimen name="activity_horizontal_margin" >128dp
+                </dimen>
+            </file>
+            <file
+                name="starter"
+                path="/home/squeezymo/workspace/Mutibo-Android/Mutibo/src/main/res/menu/starter.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="quizz"
+                path="/home/squeezymo/workspace/Mutibo-Android/Mutibo/src/main/res/menu/quizz.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="ic_launcher"
+                path="/home/squeezymo/workspace/Mutibo-Android/Mutibo/src/main/res/drawable-hdpi/ic_launcher.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/home/squeezymo/workspace/Mutibo-Android/Mutibo/src/main/res/drawable-xxhdpi/ic_launcher.png"
+                qualifiers="xxhdpi-v4"
+                type="drawable" />
+            <file
+                path="/home/squeezymo/workspace/Mutibo-Android/Mutibo/src/main/res/values/strings.xml"
+                qualifiers="" >
+                <string name="action_settings" >Settings
+                </string>
+                <string name="app_name" >Mutibo
+                </string>
+                <string name="title_activity_quizz" >QuizzActivity
+                </string>
+                <string name="hello_world" >Hello world!
+                </string>
+            </file>
+            <file
+                path="/home/squeezymo/workspace/Mutibo-Android/Mutibo/src/main/res/values/dimens.xml"
+                qualifiers="" >
+                <dimen name="activity_horizontal_margin" >16dp
+                </dimen>
+                <dimen name="activity_vertical_margin" >16dp
+                </dimen>
+            </file>
+            <file
+                path="/home/squeezymo/workspace/Mutibo-Android/Mutibo/src/main/res/values/styles.xml"
+                qualifiers="" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme" >
+
+                    <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+                    -->
+                </style>
+
+                <style
+                    name="AppTheme"
+                    parent="AppBaseTheme" >
+
+                    <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+                </style>
+            </file>
+            <file
+                name="activity_starter"
+                path="/home/squeezymo/workspace/Mutibo-Android/Mutibo/src/main/res/layout/activity_starter.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_quizz"
+                path="/home/squeezymo/workspace/Mutibo-Android/Mutibo/src/main/res/layout/activity_quizz.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="ic_launcher"
+                path="/home/squeezymo/workspace/Mutibo-Android/Mutibo/src/main/res/drawable-mdpi/ic_launcher.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                path="/home/squeezymo/workspace/Mutibo-Android/Mutibo/src/main/res/values-v11/styles.xml"
+                qualifiers="v11" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Holo" >
+
+                    <!-- API 11 theme customizations can go here. -->
+                </style>
+            </file>
+            <file
+                name="ic_launcher"
+                path="/home/squeezymo/workspace/Mutibo-Android/Mutibo/src/main/res/drawable-xhdpi/ic_launcher.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="question_content"
+                path="/home/squeezymo/workspace/Mutibo-Android/Mutibo/src/main/res/layout/question_content.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="answer_item"
+                path="/home/squeezymo/workspace/Mutibo-Android/Mutibo/src/main/res/layout/answer_item.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="explanation_content"
+                path="/home/squeezymo/workspace/Mutibo-Android/Mutibo/src/main/res/layout/explanation_content.xml"
+                qualifiers=""
+                type="layout" />
+        </source>
+        <source path="/home/squeezymo/workspace/Mutibo-Android/Mutibo/build/generated/res/rs/debug" />
+        <source path="/home/squeezymo/workspace/Mutibo-Android/Mutibo/build/generated/res/generated/debug" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="/home/squeezymo/workspace/Mutibo-Android/Mutibo/src/debug/res" />
+    </dataSet>
+
+</merger>

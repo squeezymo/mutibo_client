@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/question_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="12dip"
+        android:text="Mark the odd one out"/>
+
+</LinearLayout><!-- From: file:/home/squeezymo/workspace/Mutibo-Android/Mutibo/src/main/res/layout/question_content.xml -->

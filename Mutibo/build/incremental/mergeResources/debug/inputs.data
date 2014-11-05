@@ -1,0 +1,17 @@
+# incremental data. DO NOT EDIT.
+# format is <lastModified> <length> <SHA-1> <path>
+# Encoding is UTF-8
+1413229424000 24654 696bbbc63d2250ef7d3373f2d602e604acd13d8c /home/squeezymo/workspace/Mutibo-Android/Mutibo/src/main/res/drawable-xxhdpi/ic_launcher.png
+1413394503000 244 045ff451db7cd8e61285502b8c9bbf7405f2078d /home/squeezymo/workspace/Mutibo-Android/Mutibo/src/main/res/menu/quizz.xml
+1413229425000 254 25b6404e44acb50c82590049639d4fb5fefbac8e /home/squeezymo/workspace/Mutibo-Android/Mutibo/src/main/res/values-sw720dp-land/dimens.xml
+1413395608000 644 9d33d66c7d2bff846a9b47924ce014f923488a16 /home/squeezymo/workspace/Mutibo-Android/Mutibo/src/main/res/layout/activity_starter.xml
+1413394503000 279 11b54c0f1c22487250ffaf35f60f547a439a170e /home/squeezymo/workspace/Mutibo-Android/Mutibo/src/main/res/values/strings.xml
+1413229424000 3769 eec07752d40e268ed7f4a1730acc77ab1e40aeb0 /home/squeezymo/workspace/Mutibo-Android/Mutibo/src/main/res/drawable-mdpi/ic_launcher.png
+1413229424000 211 4e1904afba59d31e5cd6133f6a4c360fa9a5913f /home/squeezymo/workspace/Mutibo-Android/Mutibo/src/main/res/values/dimens.xml
+1413229424000 244 045ff451db7cd8e61285502b8c9bbf7405f2078d /home/squeezymo/workspace/Mutibo-Android/Mutibo/src/main/res/menu/starter.xml
+1413229424000 318 f37b4c43b290eba4a42d9102f14a550c301de5c8 /home/squeezymo/workspace/Mutibo-Android/Mutibo/src/main/res/values-v11/styles.xml
+1413229424000 674 c78f92856947cb5742edaa3b94df76b0823dbbe7 /home/squeezymo/workspace/Mutibo-Android/Mutibo/src/main/res/values/styles.xml
+1413229425000 181 84de2797380184d8b39af6f829afb092fb956173 /home/squeezymo/workspace/Mutibo-Android/Mutibo/src/main/res/values-sw600dp/dimens.xml
+1413394503000 650 65814beab29864d0e6a8451dc5fb901a90fc1b36 /home/squeezymo/workspace/Mutibo-Android/Mutibo/src/main/res/layout/activity_quizz.xml
+1413229424000 7721 39b0f5a0570da92f471225402ad0ea6de30bf2be /home/squeezymo/workspace/Mutibo-Android/Mutibo/src/main/res/drawable-hdpi/ic_launcher.png
+1413229424000 12329 a8301606e15d4b6dccdd775cc273cfc51a552645 /home/squeezymo/workspace/Mutibo-Android/Mutibo/src/main/res/drawable-xhdpi/ic_launcher.png

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="/home/squeezymo/workspace/Mutibo-Android/Mutibo/build/intermediates/pre-dexed/debug/retrofit-1.6.0-88170cad4d074b98bdc622c9c04271736ffb51ba.jar"
+        jar="/home/squeezymo/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit/retrofit/1.6.0/39a9e4b49ded46aa1b67d492fe287c4cebcd815c/retrofit-1.6.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="39a9e4b49ded46aa1b67d492fe287c4cebcd815c"/>
+    <item
+        dex="/home/squeezymo/workspace/Mutibo-Android/Mutibo/build/intermediates/pre-dexed/debug/gson-2.2.4-d959279a1c04c2ef258273244156a09f813718dd.jar"
+        jar="/home/squeezymo/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.2.4/a60a5e993c98c864010053cb901b7eab25306568/gson-2.2.4.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="a60a5e993c98c864010053cb901b7eab25306568"/>
+    <item
+        dex="/home/squeezymo/workspace/Mutibo-Android/Mutibo/build/intermediates/pre-dexed/debug/support-v4-19.0.1-b2ff25fbddf3ebc151fd44f64e55ccc8c49dcc3a.jar"
+        jar="/home/squeezymo/Android Studio/android-studio/sdk/extras/android/m2repository/com/android/support/support-v4/19.0.1/support-v4-19.0.1.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="587da9a481ffd341d2fa091704489b89845ddacd"/>
+
+</pre-dex-items>

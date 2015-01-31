@@ -1,0 +1,103 @@
+-- Merging decision tree log ---
+manifest
+ADDED from AndroidManifest.xml:2:1
+	xmlns:android
+		ADDED from AndroidManifest.xml:2:11
+	package
+		ADDED from AndroidManifest.xml:3:5
+	android:versionName
+		ADDED from AndroidManifest.xml:5:5
+	android:versionCode
+		ADDED from AndroidManifest.xml:4:5
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+uses-permission#android.permission.INTERNET
+ADDED from AndroidManifest.xml:7:5
+	android:name
+		ADDED from AndroidManifest.xml:7:22
+uses-sdk
+ADDED from AndroidManifest.xml:9:5
+MERGED from com.nhaarman.listviewanimations:lib-core:3.1.0:22:5
+MERGED from com.nhaarman.listviewanimations:lib-manipulation:3.1.0:22:5
+MERGED from com.nhaarman.listviewanimations:lib-core-slh:3.1.0:22:5
+	android:targetSdkVersion
+		ADDED from AndroidManifest.xml:11:9
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:minSdkVersion
+		ADDED from AndroidManifest.xml:10:9
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+application
+ADDED from AndroidManifest.xml:13:5
+MERGED from com.nhaarman.listviewanimations:lib-core:3.1.0:26:5
+MERGED from com.nhaarman.listviewanimations:lib-manipulation:3.1.0:26:5
+MERGED from com.nhaarman.listviewanimations:lib-core-slh:3.1.0:26:5
+	android:label
+		ADDED from AndroidManifest.xml:16:9
+	android:allowBackup
+		ADDED from AndroidManifest.xml:14:9
+	android:icon
+		ADDED from AndroidManifest.xml:15:9
+	android:theme
+		ADDED from AndroidManifest.xml:17:9
+service#com.squeezymo.mutibo.client.QuizzService
+ADDED from AndroidManifest.xml:19:9
+	android:name
+		ADDED from AndroidManifest.xml:20:13
+provider#com.squeezymo.mutibo.client.provider.QuizzProvider
+ADDED from AndroidManifest.xml:23:9
+	android:authorities
+		ADDED from AndroidManifest.xml:25:13
+	android:name
+		ADDED from AndroidManifest.xml:24:13
+activity#com.squeezymo.mutibo.ui.activites.MainMenuActivity
+ADDED from AndroidManifest.xml:28:9
+	android:label
+		ADDED from AndroidManifest.xml:30:13
+	android:name
+		ADDED from AndroidManifest.xml:29:13
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:31:13
+action#android.intent.action.MAIN
+ADDED from AndroidManifest.xml:32:17
+	android:name
+		ADDED from AndroidManifest.xml:32:25
+category#android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:33:17
+	android:name
+		ADDED from AndroidManifest.xml:33:27
+activity#com.squeezymo.mutibo.ui.activites.AdderActivity
+ADDED from AndroidManifest.xml:37:9
+	android:label
+		ADDED from AndroidManifest.xml:39:13
+	android:name
+		ADDED from AndroidManifest.xml:38:13
+activity#com.squeezymo.mutibo.ui.activites.QuizzActivity
+ADDED from AndroidManifest.xml:42:9
+	android:label
+		ADDED from AndroidManifest.xml:44:13
+	android:name
+		ADDED from AndroidManifest.xml:43:13
+activity#com.squeezymo.mutibo.ui.activites.LogInActivity
+ADDED from AndroidManifest.xml:47:9
+	android:label
+		ADDED from AndroidManifest.xml:49:13
+	android:name
+		ADDED from AndroidManifest.xml:48:13
+activity#com.squeezymo.mutibo.ui.activites.QuizzActivity$RatingActivity
+ADDED from AndroidManifest.xml:52:9
+	android:label
+		ADDED from AndroidManifest.xml:55:13
+	android:theme
+		ADDED from AndroidManifest.xml:54:13
+	android:name
+		ADDED from AndroidManifest.xml:53:13
+activity#com.nhaarman.listviewanimations.itemmanipulation.swipedismiss.SwipeTouchListenerTestActivity
+ADDED from com.nhaarman.listviewanimations:lib-manipulation:3.1.0:27:9
+	android:name
+		ADDED from com.nhaarman.listviewanimations:lib-manipulation:3.1.0:27:19
+activity#com.nhaarman.listviewanimations.itemmanipulation.dragdrop.DynamicListViewTestActivity
+ADDED from com.nhaarman.listviewanimations:lib-manipulation:3.1.0:28:9
+	android:name
+		ADDED from com.nhaarman.listviewanimations:lib-manipulation:3.1.0:28:19

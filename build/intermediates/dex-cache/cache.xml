@@ -2,22 +2,64 @@
 <pre-dex-items>
 
     <item
+        dex="/home/squeezymo/workspace/Mutibo-Android/Mutibo/build/intermediates/pre-dexed/debug/classes-6b31f7a8679ebb5deca581d71c55c859cb5664d2.jar"
+        jar="/home/squeezymo/workspace/Mutibo-Android/Mutibo/build/intermediates/exploded-aar/com.nhaarman.listviewanimations/lib-core/3.1.0/classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="acf66033b1418ccf9e15c8e77750981e4809c4ea"/>
+    <item
+        dex="/home/squeezymo/workspace/Mutibo-Android/Mutibo/build/intermediates/pre-dexed/debug/classes-4bdea3e352a6fb1422d6f60da760c6422b23a551.jar"
+        jar="/home/squeezymo/workspace/Mutibo-Android/Mutibo/build/intermediates/exploded-aar/com.nhaarman.listviewanimations/lib-manipulation/3.1.0/classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="5660e4bf78904137e90e62a5d4cc2e987258f02c"/>
+    <item
         dex="/home/squeezymo/workspace/Mutibo-Android/Mutibo/build/intermediates/pre-dexed/debug/retrofit-1.6.0-88170cad4d074b98bdc622c9c04271736ffb51ba.jar"
         jar="/home/squeezymo/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit/retrofit/1.6.0/39a9e4b49ded46aa1b67d492fe287c4cebcd815c/retrofit-1.6.0.jar"
         jumboMode="false"
         revision="19.1.0"
         sha1="39a9e4b49ded46aa1b67d492fe287c4cebcd815c"/>
     <item
+        dex="/home/squeezymo/workspace/Mutibo-Android/Mutibo/build/intermediates/pre-dexed/debug/commons-io-2.4-d68cfad569798ff67d7aa801ff538ffcab357e51.jar"
+        jar="/home/squeezymo/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.4/b1b6ea3b7e4aa4f492509a4952029cd8e48019ad/commons-io-2.4.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="b1b6ea3b7e4aa4f492509a4952029cd8e48019ad"/>
+    <item
+        dex="/home/squeezymo/workspace/Mutibo-Android/Mutibo/build/intermediates/pre-dexed/debug/commons-lang3-3.3.2-b1e1b9e61717aaa89347b75fc41e0717fcd53ae0.jar"
+        jar="/home/squeezymo/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.3.2/90a3822c38ec8c996e84c16a3477ef632cbc87a3/commons-lang3-3.3.2.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="90a3822c38ec8c996e84c16a3477ef632cbc87a3"/>
+    <item
+        dex="/home/squeezymo/workspace/Mutibo-Android/Mutibo/build/intermediates/pre-dexed/debug/support-v4-19.0.1-c5a0e66aa60f02063e81d3c46488c772b8d45918.jar"
+        jar="/home/squeezymo/sdk/extras/android/m2repository/com/android/support/support-v4/19.0.1/support-v4-19.0.1.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="587da9a481ffd341d2fa091704489b89845ddacd"/>
+    <item
+        dex="/home/squeezymo/workspace/Mutibo-Android/Mutibo/build/intermediates/pre-dexed/debug/library-2.4.0-627b705ab5c7327aec6fcba2853d518a90c202b5.jar"
+        jar="/home/squeezymo/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb"/>
+    <item
+        dex="/home/squeezymo/workspace/Mutibo-Android/Mutibo/build/intermediates/pre-dexed/debug/classes-03f7dcc9a9d1e1da11670c6df0bed64f2b141aa4.jar"
+        jar="/home/squeezymo/workspace/Mutibo-Android/Mutibo/build/intermediates/exploded-aar/com.nhaarman.listviewanimations/lib-core-slh/3.1.0/classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="49223278ec2ede1d05d00868c5ce3e077b4016f8"/>
+    <item
+        dex="/home/squeezymo/workspace/Mutibo-Android/Mutibo/build/intermediates/pre-dexed/debug/guava-17.0-a6aadf0e2cf8b0f01da10f13cc9b900e661ac225.jar"
+        jar="/home/squeezymo/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/17.0/9c6ef172e8de35fd8d4d8783e4821e57cdef7445/guava-17.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="9c6ef172e8de35fd8d4d8783e4821e57cdef7445"/>
+    <item
         dex="/home/squeezymo/workspace/Mutibo-Android/Mutibo/build/intermediates/pre-dexed/debug/gson-2.2.4-d959279a1c04c2ef258273244156a09f813718dd.jar"
         jar="/home/squeezymo/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.2.4/a60a5e993c98c864010053cb901b7eab25306568/gson-2.2.4.jar"
         jumboMode="false"
         revision="19.1.0"
         sha1="a60a5e993c98c864010053cb901b7eab25306568"/>
-    <item
-        dex="/home/squeezymo/workspace/Mutibo-Android/Mutibo/build/intermediates/pre-dexed/debug/support-v4-19.0.1-b2ff25fbddf3ebc151fd44f64e55ccc8c49dcc3a.jar"
-        jar="/home/squeezymo/Android Studio/android-studio/sdk/extras/android/m2repository/com/android/support/support-v4/19.0.1/support-v4-19.0.1.jar"
-        jumboMode="false"
-        revision="19.1.0"
-        sha1="587da9a481ffd341d2fa091704489b89845ddacd"/>
 
 </pre-dex-items>

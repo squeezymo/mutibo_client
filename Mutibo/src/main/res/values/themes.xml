@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <style name="MutiboTheme" parent="AppBaseTheme">
+    <item name="android:windowBackground">@color/background_clr</item>
+    <item name="android:editTextStyle">@style/EditTextMutiboTheme</item>
+    <item name="android:buttonStyle">@style/ButtonMutiboTheme</item>
+    <item name="android:imageButtonStyle">@style/ImageButtonMutiboTheme</item>
+    <item name="android:progressBarStyleHorizontal">@style/ProgressBarMutiboTheme</item>
+    <item name="android:ratingBarStyle">@style/RatingBarMutiboTheme</item>
+    <item name="android:ratingBarStyleIndicator">@style/RatingBarBigMutiboTheme</item>
+    <item name="android:ratingBarStyleSmall">@style/RatingBarSmallMutiboTheme</item>
+    <item name="android:listViewStyle">@style/ListViewMutiboTheme</item>
+    <item name="android:listViewWhiteStyle">@style/ListViewMutiboTheme.White</item>
+    <item name="android:spinnerItemStyle">@style/SpinnerItemMutiboTheme</item>
+    <item name="android:textViewStyle">@style/TextViewMutiboTheme</item>
+    <item name="android:windowActionBar">true</item>
+  </style>
+
+  <style name="MutiboTheme.Dialog" parent="@android:style/Theme.Dialog">
+      <item name="android:windowBackground">@color/background_clr</item>
+      <item name="android:editTextStyle">@style/EditTextMutiboTheme</item>
+      <item name="android:buttonStyle">@style/ButtonMutiboTheme</item>
+      <item name="android:imageButtonStyle">@style/ImageButtonMutiboTheme</item>
+      <item name="android:progressBarStyleHorizontal">@style/ProgressBarMutiboTheme</item>
+      <item name="android:ratingBarStyle">@style/RatingBarMutiboTheme</item>
+      <item name="android:ratingBarStyleIndicator">@style/RatingBarBigMutiboTheme</item>
+      <item name="android:ratingBarStyleSmall">@style/RatingBarSmallMutiboTheme</item>
+      <item name="android:listViewStyle">@style/ListViewMutiboTheme</item>
+      <item name="android:listViewWhiteStyle">@style/ListViewMutiboTheme.White</item>
+      <item name="android:spinnerItemStyle">@style/SpinnerItemMutiboTheme</item>
+      <item name="android:textViewStyle">@style/TextViewMutiboTheme</item>
+      <item name="android:windowActionBar">true</item>
+  </style>
+
+</resources>

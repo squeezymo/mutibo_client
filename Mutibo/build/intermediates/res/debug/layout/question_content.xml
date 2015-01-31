@@ -9,6 +9,6 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:padding="12dip"
-        android:text="Mark the odd one out"/>
+        android:text="@string/fetching"/>
 
 </LinearLayout><!-- From: file:/home/squeezymo/workspace/Mutibo-Android/Mutibo/src/main/res/layout/question_content.xml -->

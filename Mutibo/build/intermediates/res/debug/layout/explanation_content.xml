@@ -8,14 +8,14 @@
         android:id="@+id/explanation_header"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="14dip"
-        android:text="Explanation header"/>
+        android:padding="7dip"
+        android:text="@string/fetching"/>
 
     <TextView
         android:id="@+id/explanation_content"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="14dip"
-        android:text="Explanation content"/>
+        android:padding="7dip"
+        android:text="@string/fetching"/>
 
 </LinearLayout><!-- From: file:/home/squeezymo/workspace/Mutibo-Android/Mutibo/src/main/res/layout/explanation_content.xml -->

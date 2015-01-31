@@ -1,11 +1,16 @@
 package com.squeezymo.mutibo.ui.adapters;
 
+import com.nhaarman.listviewanimations.appearance.simple.SwingBottomInAnimationAdapter;
 import com.squeezymo.mutibo.R;
 import com.squeezymo.mutibo.model.Answer;
 import com.squeezymo.mutibo.ui.activites.QuizzActivity;
 
+import android.animation.ArgbEvaluator;
+import android.animation.ValueAnimator;
 import android.content.Context;
 import android.graphics.Color;
+import android.graphics.drawable.AnimationDrawable;
+import android.util.Log;
 import android.view.*;
 import android.widget.*;
 
@@ -42,26 +47,43 @@ public class AnswerListAdapter extends BaseAdapter {
         switch (mState) {
             case UNCONFIRMED:
                 if ( answer.isPicked() ) {
-                    itemLayout.setBackgroundColor(Color.YELLOW);
+                    itemLayout.setBackgroundResource(R.drawable.answer_bg_picked);
                 }
                 else {
-                    itemLayout.setBackgroundColor(Color.BLACK);
+                    itemLayout.setBackgroundResource(R.drawable.answer_bg_default);
                 }
                 break;
             case CONFIRMED:
+            case GAME_OVER:
                 if (answer.isCorrect()) {
-                    itemLayout.setBackgroundColor(Color.GREEN);
+                    blink(itemLayout, R.drawable.answer_bg_default, R.drawable.answer_bg_correct);
                 }
                 else if (answer.isPicked()) {
-                    itemLayout.setBackgroundColor(Color.RED);
+                    itemLayout.setBackgroundResource(R.drawable.answer_bg_incorrect);
                 }
                 else {
-                    itemLayout.setBackgroundColor(Color.BLACK);
+                    itemLayout.setBackgroundResource(R.drawable.answer_bg_default);
                 }
                 break;
         }
 
         return itemLayout;
+    }
+
+    private void blink(final View layout, int res1, int res2) {
+        final int TIMES_TO_REPEAT = 7;
+        final int DURATION = 200;
+
+        final AnimationDrawable a = new AnimationDrawable();
+
+        for (int i = 0; i < TIMES_TO_REPEAT; i++) {
+            a.addFrame(mContext.getResources().getDrawable(res1), DURATION);
+            a.addFrame(mContext.getResources().getDrawable(res2), DURATION);
+        }
+
+        a.setOneShot(true);
+        layout.setBackgroundDrawable(a);
+        a.start();
     }
 
     @Override

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:layout_centerHorizontal="true">
+
+        <EditText
+            android:id="@+id/field_question"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/question"
+            android:inputType="textShortMessage"
+            android:maxLength="40"
+            android:layout_marginBottom="15dp"
+            android:textAppearance="?android:attr/textAppearanceMedium">
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/field_movie1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/movieTitle1"
+            android:inputType="textShortMessage"
+            android:maxLength="30"
+            android:textAppearance="?android:attr/textAppearanceMedium">
+        </EditText>
+
+        <EditText
+            android:id="@+id/field_movie2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/movieTitle2"
+            android:inputType="textShortMessage"
+            android:maxLength="30"
+            android:textAppearance="?android:attr/textAppearanceMedium">
+        </EditText>
+
+        <EditText
+            android:id="@+id/field_movie3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/movieTitle3"
+            android:inputType="textShortMessage"
+            android:maxLength="40"
+            android:textAppearance="?android:attr/textAppearanceMedium">
+        </EditText>
+
+        <EditText
+            android:id="@+id/field_odd_movie"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/oddMovieTitle"
+            android:inputType="textShortMessage"
+            android:maxLength="20"
+            android:textAppearance="?android:attr/textAppearanceMedium">
+        </EditText>
+
+        <EditText
+            android:id="@+id/field_explanation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/explanation"
+            android:inputType="textShortMessage"
+            android:maxLength="20"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:textAppearance="?android:attr/textAppearanceMedium">
+        </EditText>
+
+        <Button
+            android:id="@+id/btn_submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/submit"/>
+    </LinearLayout>
+</RelativeLayout>

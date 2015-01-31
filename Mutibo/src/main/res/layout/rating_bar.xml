@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RatingBar
+        android:id="@+id/ratingbar"
+        style="?android:attr/ratingBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:rating="2"
+        android:stepSize="1"
+        android:numStars="3" />
+
+    <!-- Кнопки -->
+    <LinearLayout
+        style="?android:attr/buttonBarStyle"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:paddingTop="0dip"
+        android:paddingLeft="2dip"
+        android:paddingRight="2dip"
+        android:measureWithLargestChild="true"
+        android:background="?android:attr/dividerHorizontal"
+        android:layout_below="@+id/options_layout">
+
+        <Button
+            android:id="@+id/rating_cancel_btn"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/cancel"/>
+
+        <Button
+            android:id="@+id/rating_confirm_btn"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/submit"/>
+    </LinearLayout>
+
+</LinearLayout>

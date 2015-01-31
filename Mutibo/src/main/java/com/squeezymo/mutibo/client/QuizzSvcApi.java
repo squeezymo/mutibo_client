@@ -3,22 +3,24 @@ package com.squeezymo.mutibo.client;
 import java.util.*;
 import retrofit.http.*;
 import com.squeezymo.mutibo.model.*;
-//import com.squeezymo.mutibo.repository.*;
 
-public interface QuizzSvcApi {
-    public static final String DOMAIN_ID_PARAMETER = "domain_id";
+interface QuizzSvcApi {
 
-    public static final String ANSWER_PTH = "/answer";
     public static final String QSET_PTH = "/set";
-    // retrieve all question sets by particular domain
-    public static final String QSET_BY_DOMAIN_ID_ALL_PTH = QSET_PTH + "/search/findByDomainId";
+    public static final String QSETS_PTH = "/sets";
+    public static final String RATE_PTH = "/rate";
+    public static final String TOKEN_PATH = "/oauth/token";
 
     @POST(QSET_PTH)
     public QuestionSet addQuestionSet(@Body QuestionSet qset);
 
-    @GET(QSET_BY_DOMAIN_ID_ALL_PTH)
-    public Collection<QuestionSet> findByDomainID(@Query(DOMAIN_ID_PARAMETER) long domainId);
+    @GET(QSETS_PTH)
+    public List<Long> getAllQuestionSetIDs();
 
     @GET(QSET_PTH + "/{id}")
     public QuestionSet getQuestionSetByID(@Path("id") long id);
+
+    @POST(QSET_PTH + RATE_PTH + "/{id}")
+    public QuestionSet rateQuestionSet(@Path("id") long id, @Body int rating);
+
 }

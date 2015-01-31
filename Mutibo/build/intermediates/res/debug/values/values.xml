@@ -1,21 +1,73 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
+    <!-- From: file:/home/squeezymo/workspace/Mutibo-Android/Mutibo/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="background_clr">#ff52f2f0</color>
+    <color name="foreground_clr">#33e550</color>
+    <color name="green_clr">#ff34ff54</color>
+    <color name="red_clr">#fff20000</color>
+    <color name="transparent_clr">#00000000</color>
+    <color name="white_clr">#ffffffff</color>
+    <color name="yellow_clr">#ffebf241</color>
     <!-- From: file:/home/squeezymo/workspace/Mutibo-Android/Mutibo/src/main/res/values/dimens.xml -->
-    <eat-comment />
-
+    <eat-comment/>
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
     <!-- From: file:/home/squeezymo/workspace/Mutibo-Android/Mutibo/src/main/res/values/strings.xml -->
-    <eat-comment />
-
+    <eat-comment/>
     <string name="action_settings">Settings</string>
+    <string name="addSet">Add New Set</string>
     <string name="app_name">Mutibo</string>
-    <string name="hello_world">Hello world!</string>
+    <string name="authenticationFailureException">Failed to authenticate you with the login and password you have provided</string>
+    <string name="cancel">Cancel</string>
+    <string name="clear">Clear</string>
+    <string name="credentialMissingException">Login and password must both be non-empty</string>
+    <string name="download">Downloading started</string>
+    <string name="downloaded">questions downloaded</string>
+    <string name="exitGame">Quit</string>
+    <string name="explanation">explanation</string>
+    <string name="fetching">Loading...</string>
+    <string name="gameOver">Game Over!</string>
+    <string name="loggedIn">Successfully signed in</string>
+    <string name="loginHint">login</string>
+    <string name="loginMustNotBeEmpty">Login must not be empty</string>
+    <string name="movieTitle1">movie title 1</string>
+    <string name="movieTitle2">movie title 2</string>
+    <string name="movieTitle3">movie title 3</string>
+    <string name="newGame">New Game</string>
+    <string name="newHighscore">This is your new highscore!</string>
+    <string name="next">Next</string>
+    <string name="no">No</string>
+    <string name="noConnectionException">No internet connection</string>
+    <string name="notSignedIn">Not signed in</string>
+    <string name="nothingToDownload">Nothing to download</string>
+    <string name="oddMovieTitle">odd movie title</string>
+    <string name="ok">OK</string>
+    <string name="outOfQSets">Looks like you\'ve answered all the questions!\nWant to fetch some more from the server?</string>
+    <string name="passwordHint">password</string>
+    <string name="passwordsDoNotMatch">Passwords you have entered do not match</string>
+    <string name="question">question</string>
+    <string name="questionAdded">Question set successfully submitted</string>
+    <string name="questionDefault">Mark the odd one out</string>
+    <string name="rate">Rate</string>
+    <string name="reallySignOut">Really sign out?</string>
+    <string name="repeatPasswordHint">repeat password</string>
+    <string name="retry">Retry</string>
+    <string name="score">Score: </string>
+    <string name="signIn">Sign In</string>
+    <string name="signOut">Sign Out</string>
+    <string name="signedInAs">Signed in as</string>
+    <string name="singInAddingWarning">You have to be signed in to add questions.\nSign in now?</string>
+    <string name="singInRatingWarning">You have to be signed in to rate questions.\nSign in now?</string>
+    <string name="singUp">Sign Up</string>
+    <string name="submit">Submit</string>
     <string name="title_activity_quizz">QuizzActivity</string>
+    <string name="unknownException">Unknown error occurred. Probably remote server does not respond</string>
+    <string name="userExists">User with this login already exists</string>
+    <string name="yes">Yes</string>
+    <string name="youScored">Your score</string>
     <!-- From: file:/home/squeezymo/workspace/Mutibo-Android/Mutibo/src/main/res/values/styles.xml -->
-    <eat-comment />
-
+    <eat-comment/>
     <style name="AppBaseTheme" parent="android:Theme">
         <!--
             Theme customizations available in newer API levels can go in
@@ -23,9 +75,108 @@
             backward-compatibility can go here.
         -->
     </style>
-
     <style name="AppTheme" parent="AppBaseTheme">
         <!-- All customizations that are NOT specific to a particular API-level can go here. -->
     </style>
+    <style name="ButtonMutiboTheme" parent="android:Widget.Button">
+        <item name="android:background">@drawable/mutibotheme_btn_default_holo_dark</item>
+        <item name="android:minHeight">48dip</item>
+        <item name="android:minWidth">64dip</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+    <style name="EditTextMutiboTheme" parent="android:Widget.EditText">
+        <item name="android:background">@drawable/mutibotheme_edit_text_holo_dark</item>
+        <item name="android:textColor">@color/white_clr</item>
+    </style>
+    <style name="ImageButtonMutiboTheme" parent="android:Widget.ImageButton">
+        <item name="android:background">@drawable/mutibotheme_btn_default_holo_dark</item>
+    </style>
+    <style name="ListViewMutiboTheme" parent="android:Widget.ListView">
+        <item name="android:listSelector">@drawable/mutibotheme_list_selector_holo_dark</item>
+    </style>
+    <style name="ListViewMutiboTheme.White" parent="android:Widget.ListView.White">
+        <item name="android:listSelector">@drawable/mutibotheme_list_selector_holo_dark</item>
+    </style>
+    <!-- From: file:/home/squeezymo/workspace/Mutibo-Android/Mutibo/src/main/res/values/themes.xml -->
+    <eat-comment/>
+    <style name="MutiboTheme" parent="AppBaseTheme">
+    <item name="android:windowBackground">@color/background_clr</item>
+    <item name="android:editTextStyle">@style/EditTextMutiboTheme</item>
+    <item name="android:buttonStyle">@style/ButtonMutiboTheme</item>
+    <item name="android:imageButtonStyle">@style/ImageButtonMutiboTheme</item>
+    <item name="android:progressBarStyleHorizontal">@style/ProgressBarMutiboTheme</item>
+    <item name="android:ratingBarStyle">@style/RatingBarMutiboTheme</item>
+    <item name="android:ratingBarStyleIndicator">@style/RatingBarBigMutiboTheme</item>
+    <item name="android:ratingBarStyleSmall">@style/RatingBarSmallMutiboTheme</item>
+    <item name="android:listViewStyle">@style/ListViewMutiboTheme</item>
+    <item name="android:listViewWhiteStyle">@style/ListViewMutiboTheme.White</item>
+    <item name="android:spinnerItemStyle">@style/SpinnerItemMutiboTheme</item>
+    <item name="android:textViewStyle">@style/TextViewMutiboTheme</item>
+    <item name="android:windowActionBar">true</item>
+  </style>
+    <style name="MutiboTheme.Dialog" parent="@android:style/Theme.Dialog">
+      <item name="android:windowBackground">@color/background_clr</item>
+      <item name="android:editTextStyle">@style/EditTextMutiboTheme</item>
+      <item name="android:buttonStyle">@style/ButtonMutiboTheme</item>
+      <item name="android:imageButtonStyle">@style/ImageButtonMutiboTheme</item>
+      <item name="android:progressBarStyleHorizontal">@style/ProgressBarMutiboTheme</item>
+      <item name="android:ratingBarStyle">@style/RatingBarMutiboTheme</item>
+      <item name="android:ratingBarStyleIndicator">@style/RatingBarBigMutiboTheme</item>
+      <item name="android:ratingBarStyleSmall">@style/RatingBarSmallMutiboTheme</item>
+      <item name="android:listViewStyle">@style/ListViewMutiboTheme</item>
+      <item name="android:listViewWhiteStyle">@style/ListViewMutiboTheme.White</item>
+      <item name="android:spinnerItemStyle">@style/SpinnerItemMutiboTheme</item>
+      <item name="android:textViewStyle">@style/TextViewMutiboTheme</item>
+      <item name="android:windowActionBar">true</item>
+  </style>
+    <!-- From: file:/home/squeezymo/workspace/Mutibo-Android/Mutibo/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="ProgressBarMutiboTheme" parent="android:Widget.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/mutibotheme_progress_horizontal_holo_dark</item>
+        <item name="android:indeterminateDrawable">@drawable/mutibotheme_progress_indeterminate_horizontal_holo_dark</item>
+        <item name="android:minHeight">16dip</item>
+        <item name="android:maxHeight">16dip</item>
+    </style>
+    <style name="RatingBarBigMutiboTheme" parent="android:Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/mutibotheme_ratingbar_holo_dark</item>
+        <item name="android:indeterminateDrawable">@drawable/mutibotheme_ratingbar_holo_dark</item>
+        <item name="android:minHeight">35dip</item>
+        <item name="android:maxHeight">35dip</item>
+    </style>
+    <style name="RatingBarMutiboTheme" parent="android:Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/mutibotheme_ratingbar_full_holo_dark</item>
+        <item name="android:indeterminateDrawable">@drawable/mutibotheme_ratingbar_full_holo_dark</item>
+    </style>
+    <style name="RatingBarSmallMutiboTheme" parent="android:Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/mutibotheme_ratingbar_small_holo_dark</item>
+        <item name="android:indeterminateDrawable">@drawable/mutibotheme_ratingbar_small_holo_dark</item>
+        <item name="android:minHeight">16dip</item>
+        <item name="android:maxHeight">16dip</item>
+    </style>
+    <style name="SpinnerItemMutiboTheme" parent="android:TextAppearance.Widget.TextView.SpinnerItem">
+        <item name="android:textColor">#ffffff</item>
+    </style>
+    <style name="TextViewMutiboTheme" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/white_clr</item>
+    </style>
+    <style name="TransparentProgressDialogStyle" parent="android:Theme.Holo.Dialog">
+        <item name="android:bottomBright">@color/transparent_clr</item>
+        <item name="android:bottomDark">@color/transparent_clr</item>
+        <item name="android:bottomMedium">@color/transparent_clr</item>
+        <item name="android:centerBright">@color/transparent_clr</item>
+        <item name="android:centerDark">@color/transparent_clr</item>
+        <item name="android:centerMedium">@color/transparent_clr</item>
+        <item name="android:fullBright">@color/transparent_clr</item>
+        <item name="android:fullDark">@color/transparent_clr</item>
+        <item name="android:topBright">@color/transparent_clr</item>
+        <item name="android:topDark">@color/transparent_clr</item>
 
+        <item name="android:alertDialogStyle">@style/TransparentProgressDialogStyle</item>
+        <item name="android:windowBackground">@color/transparent_clr</item>
+        <item name="android:textColorPrimary">#FFFFFF</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">12sp</item>
+    </style>
 </resources>

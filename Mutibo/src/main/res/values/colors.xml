@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="foreground_clr">#33e550</color>
+    <color name="background_clr">#ff52f2f0</color>
+    <color name="transparent_clr">#00000000</color>
+    <color name="red_clr">#fff20000</color>
+    <color name="white_clr">#ffffffff</color>
+    <color name="yellow_clr">#ffebf241</color>
+    <color name="green_clr">#ff34ff54</color>
+</resources>

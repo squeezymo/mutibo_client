@@ -7,7 +7,8 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin"
     tools:context=".QuizzActivity"
-    android:weightSum="1">
+    android:weightSum="1"
+    style="@style/MutiboTheme">
 
     <LinearLayout
         android:orientation="vertical"
@@ -21,7 +22,16 @@
             android:orientation="vertical"
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight="5"/>
+            android:layout_weight="5">
+
+            <fragment
+                android:id="@+id/fragment_score"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                class="com.squeezymo.mutibo.ui.fragments.quizz.GameStatScoreFragment"
+                tools:layout="@layout/game_stats" />
+
+        </LinearLayout>
 
         <!-- QuestionSet -->
         <LinearLayout
@@ -36,7 +46,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="10"
-                class="com.squeezymo.mutibo.ui.fragments.QuestionFragment"
+                class="com.squeezymo.mutibo.ui.fragments.quizz.QuestionFragment"
                 tools:layout="@layout/question_content" />
 
             <fragment
@@ -44,15 +54,15 @@
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="90"
-                class="com.squeezymo.mutibo.ui.fragments.AnswerListFragment"
+                class="com.squeezymo.mutibo.ui.fragments.quizz.AnswerListFragment"
                 tools:layout="@layout/explanation_content" />
 
             <fragment
                 android:id="@+id/fragment_explanation"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
-                android:layout_weight="1"
-                class="com.squeezymo.mutibo.ui.fragments.ExplanationFragment"
+                android:layout_weight="0"
+                class="com.squeezymo.mutibo.ui.fragments.quizz.ExplanationFragment"
                 tools:layout="@layout/explanation_content" />
 
         </LinearLayout>
@@ -69,7 +79,7 @@
                 android:layout_width="0dp"
                 android:layout_weight="25"
                 android:layout_height="match_parent"
-                android:text="Clear"
+                android:text="@string/clear"
                 android:id="@+id/btn_unpick_all"/>
 
             <LinearLayout
@@ -78,13 +88,19 @@
                 android:layout_weight="50"
                 android:layout_height="match_parent">
 
+                <fragment
+                    android:id="@+id/fragment_losses"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    class="com.squeezymo.mutibo.ui.fragments.quizz.GameStatLossesFragment" />
+
             </LinearLayout>
 
             <Button
                 android:layout_width="0dp"
                 android:layout_weight="25"
                 android:layout_height="match_parent"
-                android:text="OK"
+                android:text="@string/submit"
                 android:id="@+id/btn_confirm"/>
 
         </LinearLayout>
